@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-22T19:06:37.729016+00:00",
+  "last_updated": "2026-04-23T07:24:03.231722+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 7,
-      "total_workflow_runs": 42,
-      "total_success": 42,
+      "runs_with_data": 6,
+      "total_workflow_runs": 36,
+      "total_success": 36,
       "total_failure": 0,
       "success_rate": 100.0
     },
     "last_30_days": {
-      "days": 23,
+      "days": 24,
       "runs_with_data": 16,
       "total_workflow_runs": 96,
       "total_success": 96,
@@ -19,6 +19,20 @@
     }
   },
   "history": [
+    {
+      "date": "2026-04-23",
+      "orchestrator_ran": false,
+      "orchestrator_status": "not_run",
+      "orchestrator_url": null,
+      "workflows": {},
+      "summary": {
+        "total": 0,
+        "success": 0,
+        "failure": 0,
+        "skipped": 0,
+        "success_rate": null
+      }
+    },
     {
       "date": "2026-04-22",
       "orchestrator_ran": true,
