@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T19:24:19.663465+00:00",
+  "last_updated": "2026-05-16T07:54:23.943407+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -19,6 +19,59 @@
     }
   },
   "history": [
+    {
+      "date": "2026-05-16",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/wonnor-pro/tensordict/actions/runs/25956664348",
+      "orchestrator_run_id": 25956664348,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/25956664348/job/76304465909",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/25956664348/job/76304465595",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/25956664348/job/76304465559",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/25956664348/job/76304465542",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/25956664348/job/76304465527",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/25956664348/job/76304465499",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 6,
+        "success": 6,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-05-15",
       "orchestrator_ran": true,
