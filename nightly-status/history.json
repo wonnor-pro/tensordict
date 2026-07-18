@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T07:38:28.922502+00:00",
+  "last_updated": "2026-07-18T18:55:39.335154+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-07-18",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/wonnor-pro/tensordict/actions/runs/29636070831",
       "orchestrator_run_id": 29636070831,
       "workflows": {
