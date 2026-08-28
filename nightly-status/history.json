@@ -1,24 +1,38 @@
 {
-  "last_updated": "2026-08-27T06:35:32.089906+00:00",
+  "last_updated": "2026-08-28T01:59:54.656554+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 6,
-      "total_workflow_runs": 36,
-      "total_success": 36,
+      "runs_with_data": 5,
+      "total_workflow_runs": 30,
+      "total_success": 30,
       "total_failure": 0,
       "success_rate": 100.0
     },
     "last_30_days": {
       "days": 30,
-      "runs_with_data": 29,
-      "total_workflow_runs": 174,
-      "total_success": 174,
+      "runs_with_data": 28,
+      "total_workflow_runs": 168,
+      "total_success": 168,
       "total_failure": 0,
       "success_rate": 100.0
     }
   },
   "history": [
+    {
+      "date": "2026-08-28",
+      "orchestrator_ran": false,
+      "orchestrator_status": "not_run",
+      "orchestrator_url": null,
+      "workflows": {},
+      "summary": {
+        "total": 0,
+        "success": 0,
+        "failure": 0,
+        "skipped": 0,
+        "success_rate": null
+      }
+    },
     {
       "date": "2026-08-27",
       "orchestrator_ran": false,
@@ -4685,59 +4699,6 @@
           "status": "success",
           "conclusion": "success",
           "url": "https://github.com/wonnor-pro/tensordict/actions/runs/26707882700/job/78712512361",
-          "display_name": "Benchmarks"
-        }
-      },
-      "summary": {
-        "total": 6,
-        "success": 6,
-        "failure": 0,
-        "skipped": 0,
-        "other": 0,
-        "success_rate": 100.0
-      }
-    },
-    {
-      "date": "2026-05-30",
-      "orchestrator_ran": true,
-      "orchestrator_status": "queued",
-      "orchestrator_url": "https://github.com/wonnor-pro/tensordict/actions/runs/26679083681",
-      "orchestrator_run_id": 26679083681,
-      "workflows": {
-        "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/26679083681/job/78636171992",
-          "display_name": "Linux Tests"
-        },
-        "test-macos.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/26679083681/job/78636171832",
-          "display_name": "MacOS Tests"
-        },
-        "test-rl-gpu.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/26679083681/job/78636171820",
-          "display_name": "RL GPU Tests"
-        },
-        "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/26679083681/job/78636171834",
-          "display_name": "Lint"
-        },
-        "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/26679083681/job/78636171800",
-          "display_name": "Documentation"
-        },
-        "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/wonnor-pro/tensordict/actions/runs/26679083681/job/78636171793",
           "display_name": "Benchmarks"
         }
       },
